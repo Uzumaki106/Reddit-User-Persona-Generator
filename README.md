@@ -9,24 +9,24 @@ A Python script that automatically analyzes Reddit users' activity to create det
 You need to create a Reddit app to obtain your credentials:
 
 1. Open [https://www.reddit.com/prefs/apps](https://www.reddit.com/prefs/apps) and log in.
-2. Click **"create another app…"** at the bottom. select script
+2. Click **"create another app…"** at the bottom, select **script** under **Name:**
 3. Fill in the app creation form:
     - **Name:** `colab-reddit-scraper` (or any name you like)
-    - **Redirect URI:** `http://localhost:8080` (**must be exactly this**)
+    - **Redirect URL:** `http://localhost:8080` (**must be exactly this**)
 
 4. After creation, you'll get:
-    - **client_id**: Under the app's name
+    - **client_id((personal use script)**: Under the app's name
     - **client_secret**: Next to "secret"
 
 5. Pick a **user_agent** string like:
     ```
-    colab-scraper by u/youractualusername
+    data-scraper by u/youractualusername
     ```
     (Replace `youractualusername` with your Reddit username.)
 
 ### 2. OpenRouter API Key
 
-You will need an OpenRouter or OpenAI API key for language model access.
+You will need an OpenRouter or [OpenAI API key](https://openrouter.ai/settings/keys) for language model access.
 
 ### 3. Environment Variables
 
@@ -41,7 +41,7 @@ Store your credentials as environment variables (do **not** hardcode in your scr
 
 **Set these in your environment before running the script.**  
 
-I used colab, in colab you can add secrets in nav bar on left hand side
+I used colab, in colab you can add secrets in navigation bar on left hand side and provide Notebook access
 <br>
 <br>
 <img width="484" height="417" alt="Screenshot_2025-07-17_22-22-44" src="https://github.com/user-attachments/assets/666bd910-9fb8-4748-81b9-364039e4a0d9" />
