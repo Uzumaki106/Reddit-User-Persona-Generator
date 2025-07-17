@@ -48,5 +48,8 @@ I used colab, in colab you can add secrets in nav bar on left hand side
 
 ### 4. Models From Open router
 You can chose any of the free models
-I used 1. [anthropic/claude-3-haiku (paid)](https://openrouter.ai/anthropic/claude-3-haiku)
+I used 
+<br>
+1. [anthropic/claude-3-haiku (paid)](https://openrouter.ai/anthropic/claude-3-haiku)
+<br>
 2. [deepseek/deepseek-r1:free (free)](https://openrouter.ai/deepseek/deepseek-r1:free)
