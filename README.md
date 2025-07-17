@@ -52,3 +52,16 @@ I used
 <br>
 1. [anthropic/claude-3-haiku (paid)](https://openrouter.ai/anthropic/claude-3-haiku)
 2. [deepseek/deepseek-r1:free (free)](https://openrouter.ai/deepseek/deepseek-r1:free)
+
+### 5. Code
+
+Copy python file from [code](Code/reddit_persona_builder_by_bhavesh_srivastava.py), install the libraries and run the code
+
+Use this line for runnig test cases and changing url
+```
+if __name__ == "__main__":
+    test_url = "https://www.reddit.com/user/kojied/" # Test case 1
+    #test_url = "https://www.reddit.com/user/Hungry-Move-6603/" # Test case 2
+    run_analysis(test_url)
+```
+
