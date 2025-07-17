@@ -21,7 +21,7 @@ class Config:
     PERSONA_TOKENS = 10000
     TEMPERATURE = 0.5
 
-# ---- Clients ----
+# Clients
 class Clients:
     def __init__(self):
         self.reddit = None
@@ -282,7 +282,8 @@ def run_analysis(url):
     finally:
         loop.close()
 
-#Run this
+# Run this
 if __name__ == "__main__":
-    test_url = "https://www.reddit.com/user/kojied/"
+    test_url = "https://www.reddit.com/user/kojied/" # Test case 1
+    #test_url = "https://www.reddit.com/user/Hungry-Move-6603/" # Test case 2
     run_analysis(test_url)
