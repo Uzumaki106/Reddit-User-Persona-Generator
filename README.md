@@ -40,13 +40,11 @@ Store your credentials as environment variables (do **not** hardcode in your scr
 | `OPENAI_API_KEY`      | `sk-XXXXXXXX`                           | Your OpenAI or OpenRouter API key   |
 
 **Set these in your environment before running the script.**  
-Example (Linux/macOS):
-```bash
-export REDDIT_CLIENT_ID='abc12DEFGHIJkl'
-export REDDIT_CLIENT_SECRET='mno34PQRSTU56vwxyz'
-export REDDIT_USER_AGENT='data-scraper by u/youractualusername'
-export OPENAI_API_KEY='sk-XXXXXXXX'
-```
+
+I used colab, in colab you can add secrets in nav bar on left hand side
+<br>
+<br>
+<img width="484" height="417" alt="Screenshot_2025-07-17_22-22-44" src="https://github.com/user-attachments/assets/666bd910-9fb8-4748-81b9-364039e4a0d9" />
 
 ### 4. Models From Open router
 You can chose any of the free models
